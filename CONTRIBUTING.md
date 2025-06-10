@@ -41,7 +41,7 @@ Example entry:
 "Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
 
-- `Bollard` = svg icon name used for `phu:`
+- `Bollard` = svg icon name used for `bef:`
 - `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"`
   -  ***If this data is not present, you can leave the one indicated by me.***
 - `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"`. 
@@ -54,7 +54,7 @@ window.customIconsets["yourprefix"] = getIcon;
 ```
 
 ### Update `README.md`
-- Remember to also update the `README.md` file by inserting the icon's path and the name for `phu:`.
+- Remember to also update the `README.md` file by inserting the icon's path and the name for `bef:`.
 
 
 ### Contributions and Pull Requests

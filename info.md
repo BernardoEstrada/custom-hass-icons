@@ -28,20 +28,20 @@ resources:
 ```
 
 # Use
-you can use icons by entering the prefix `phu:`
+you can use icons by entering the prefix `bef:`
 
 Example of integration in the card
 
 ```yaml
 entities:
   - entity: light.lampada_entrance
-    icon: 'phu:go'
+    icon: 'bef:go'
     name: Go
   - entity: light.monitor_2_right
-    icon: 'phu:play'
+    icon: 'bef:play'
     name: play 1
   - entity: light.monitor_2_left
-    icon: 'phu:play'
+    icon: 'bef:play'
     name: play 2
 show_header_toggle: false
 title: Custom brand icons
